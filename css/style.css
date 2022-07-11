@@ -7,8 +7,29 @@ body {
 	font-family: 'fira code';
 }
 
-.welcome-section {
+.subtitle {
+	font-weight: 400;
+	color: #4D5BCE;
+}
 
+.comments {
+	font-weight: 400;
+	color: #607B96;
+}
+
+.tags {
+	color: #4D5BCE;
+	font-weight: 400;
+}
+
+.variables {
+	color: #43D9AD;
+	font-weight: 400;
+}
+
+.values {
+	color: #E99287;
+	font-weight: 400;
 }
 
 .bg-sec {
