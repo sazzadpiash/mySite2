@@ -79,12 +79,41 @@ body {
 	z-index: -1;
 }
 
+.a-2 {
+	width: 43px;
+    bottom: 13vh;
+    left: 7%;
+    animation: bottom-rotation 20s infinite linear;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
 .a-4 {
 	width: 31px;
 	top: 15vh;
 	left: 45%;
 	animation: rotation 7s infinite linear;
 	z-index: -1;
+}
+
+@keyframes bottom-rotation {
+	from {
+		bottom: 13vh;
+    	left: 7%;
+	  }
+	  25% {
+		transform: rotate(186deg);
+		bottom: 0vh;
+		left: 18%;
+	  }
+	  50% {
+		transform: rotate(286deg);
+		bottom: 15vh;
+		left: 36%;
+	  }
+	  to {
+		/* transform: rotate(359deg); */
+	  }
 }
 
 @keyframes rotation {
