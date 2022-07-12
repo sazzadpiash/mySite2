@@ -68,10 +68,10 @@ body {
 /* logo animations */
 .react-js {
 	position: absolute;
-    left: 36px;
+    left: 0px;
     width: 116px;
     /* z-index: -1; */
-    bottom: 22px;
+    bottom: 0px;
     /* box-shadow: 0px 0px 28px -4px #00ccff; */
     border-radius: 100%;
 	animation: rotation 20s infinite linear;
