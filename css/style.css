@@ -69,7 +69,7 @@ body {
 	width: 40px;
 	top: 10vh;
 	left: 5%;
-	animation: rotation 7s infinite linear;
+	animation: rotation 7s infinite linear, sq-move 20s infinite linear;
 	z-index: -1;
 }
 
@@ -87,8 +87,21 @@ body {
 		top: 10vh;
 		left: 5%;
 	}
+	25% {
+		top: 20vh;
+		left: 0%;
+	}
+	50% {
+		top: 30vh;
+		left: 5%;
+	}
+	75% {
+		top: 20vh;
+		left: 10%;
+	}
 	to {
-		left: 200px;
+		top: 10vh;
+		left: 5%;
 	}
 }
 
