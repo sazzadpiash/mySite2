@@ -68,18 +68,37 @@ body {
 /* logo animations */
 .react-js {
 	position: absolute;
-    left: 0px;
+    left: -20px;
     width: 116px;
     /* z-index: -1; */
-    bottom: 0px;
+    bottom: 35px;
     /* box-shadow: 0px 0px 28px -4px #00ccff; */
     border-radius: 100%;
 	animation: rotation 20s infinite linear;
 }
+.node-js {
+	position: absolute;
+    right: -40px;
+    bottom: -20px;
+    width: 140px;
+    /* z-index: -1; */
+    /* box-shadow: 0px 0px 28px -4px #00ccff; */
+    border-radius: 100%;
+	animation: jumping 3s infinite ease-in-out;
+}
 
-@keyframes react-animation {
+@keyframes jumping {
 	from {
-		transform: rotate(360);
+		right: -40px;
+		bottom: -20px;
+	}
+	50% {
+		right: -40px;
+		bottom: 0px;
+	}
+	to {
+		right: -40px;
+		bottom: -20px;
 	}
 }
 
