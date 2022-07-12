@@ -9,7 +9,13 @@ body {
 
 .subtitle {
 	font-weight: 400;
-	color: #4D5BCE;
+    color: #011627;
+    background: #43D9AD;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-size: 22px;
+	margin: 15px 0px;
+	display: inline-block;
 }
 
 .comments {
@@ -73,6 +79,14 @@ body {
 	z-index: -1;
 }
 
+.a-4 {
+	width: 31px;
+	top: 15vh;
+	left: 45%;
+	animation: rotation 7s infinite linear;
+	z-index: -1;
+}
+
 @keyframes rotation {
 	from {
 	  transform: rotate(0deg);
@@ -81,6 +95,17 @@ body {
 	  transform: rotate(359deg);
 	}
   }
+@keyframes rail {
+	from {
+		top: 15vh;
+		left: 16%;
+	}
+
+	to {
+		top: 15vh;
+		left: 45%;
+	}
+}
 
 @keyframes sq-move {
 	from {
