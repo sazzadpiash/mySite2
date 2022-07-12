@@ -49,9 +49,9 @@ body {
 
 .bg-sec {
 	background: url(../images/Background\ Blurs.png);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: 111% 98px;
+    background-repeat: no-repeat;
+    background-size: 60%;
 }
 
 .ex-pd {
